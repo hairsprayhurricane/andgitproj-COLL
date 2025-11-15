@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/musicFragment">
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.savch_andgit.music.presentation.ui.MusicFragment"
+        android:label="@string/music_title" >
+        <action
+            android:id="@+id/action_music_to_favorites"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.savch_andgit.music.presentation.ui.FavoritesFragment"
+        android:label="@string/favorites_title" />
+</navigation>
