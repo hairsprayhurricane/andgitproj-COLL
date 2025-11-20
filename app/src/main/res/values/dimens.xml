@@ -50,6 +50,7 @@
     <dimen name="music_artwork_size">120dp</dimen>
     <dimen name="music_favorite_button_size">32dp</dimen>
     <dimen name="music_favorite_text_size">18sp</dimen>
+    <dimen name="music_details_padding_top">12dp</dimen>
     
     <!-- For backward compatibility -->
     <dimen name="weather_spacing_small">8dp</dimen>
