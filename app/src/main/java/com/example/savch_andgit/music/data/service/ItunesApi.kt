@@ -7,7 +7,7 @@ import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-class ItunesService(
+class ItunesApi(
     private val client: OkHttpClient = OkHttpClient(),
     private val moshi: Moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
 ) {

@@ -3,7 +3,7 @@ package com.example.savch_andgit.music.data.repository
 import com.example.savch_andgit.music.data.local.TrackDao
 import com.example.savch_andgit.music.data.mapper.toDomain
 import com.example.savch_andgit.music.data.mapper.toEntity
-import com.example.savch_andgit.music.data.service.ItunesService
+import com.example.savch_andgit.music.data.service.ItunesApi
 import com.example.savch_andgit.music.domain.model.Track
 import com.example.savch_andgit.music.domain.repository.MusicRepository
 import kotlinx.coroutines.flow.Flow
@@ -12,7 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 class MusicRepositoryImpl(
-    private val service: ItunesService,
+    private val service: ItunesApi,
     private val dao: TrackDao
 ) : MusicRepository {
     override suspend fun searchTracks(query: String): List<Track> {

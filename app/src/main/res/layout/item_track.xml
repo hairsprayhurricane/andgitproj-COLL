@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="@dimen/weather_spacing_medium">
+    android:padding="@dimen/spacing_large">
 
     <ImageView
         android:id="@+id/ivArtwork"
@@ -16,8 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingStart="@dimen/weather_spacing_small"
-        android:paddingEnd="@dimen/weather_spacing_small">
+        android:paddingStart="@dimen/spacing_small"
+        android:paddingEnd="@dimen/spacing_small">
 
         <TextView
             android:id="@+id/tvTitle"
@@ -36,8 +36,8 @@
 
     <Button
         android:id="@+id/btnFavorite"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:layout_width="@dimen/music_favorite_button_size"
+        android:layout_height="@dimen/music_favorite_button_size"
         android:backgroundTint="@color/spotify_green"
         android:minWidth="0dp"
         android:minHeight="0dp"
@@ -46,6 +46,6 @@
         android:includeFontPadding="false"
         android:text="+"
         android:textColor="@color/on_dark"
-        android:textSize="18sp"
+        android:textSize="@dimen/music_favorite_text_size"
         android:textStyle="bold" />
 </LinearLayout>
