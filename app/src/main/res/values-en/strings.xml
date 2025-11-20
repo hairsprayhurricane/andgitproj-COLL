@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music</string>
+    <string name="music_title">Music</string>
+    <string name="music_search_hint">Enter track name</string>
+    <string name="search">Search</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="music_loading">Searching…</string>
+    <string name="favorites">Favorites</string>
+    <string name="open_favorites">Open favorites</string>
+    <string name="favorites_title">Favorite Tracks</string>
+    <string name="empty_favorites">No favorites yet</string>
+</resources>
